@@ -20,6 +20,12 @@ var thisVideo = document.getElementById("myVideo_html5_api");
          		} else {
          			thisVideo.pause();
          		}
+          break;
+          
+        case 83:
+            event.preventDefault();
+            var vid = document.getElementById("myVideo_html5_api");
+            vid.playbackRate = 16;
          	break;
          
       }
